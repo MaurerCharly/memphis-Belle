@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Memphis Belle - Sommaire</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+  body {
+    margin: 0;
+    background: #2b2b2b;
+    color: #f0e6d2;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    padding: 1rem 2rem;
+    background-color: #4b3b2b;
+    color: #f0e6d2;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  main {
+    display: flex;
+    height: calc(100vh - 70px);
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .sommaire {
+    background-color: #3e2f1c;
+    padding: 2rem;
+    width: 40%;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    border-radius: 8px;
+    overflow-y: auto;
+  }
+  .sommaire h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f0d08c;
+  }
+  ol {
+    padding-left: 1rem;
+  }
+  ol > li {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #f0e6d2;
+  }
+  ol > li ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+  a {
+    color: #f0d08c;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .photo {
+    width: 60%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Boeing_B-17_Flying_Fortress_-_Memphis_Belle_1943.jpg/640px-Boeing_B-17_Flying_Fortress_-_Memphis_Belle_1943.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.8);
+  }
+</style>
+</head>
+<body>
+<header>Memphis Belle - Sommaire</header>
+<main>
+  <div class="sommaire">
+    <h2>Sommaire</h2>
+    <ol>
+      <li><a href="histoire.html">1. Histoire du Memphis Belle</a>
+        <ul>
+          <li>Contexte de sa création</li>
+          <li>Son rôle pendant la Seconde Guerre mondiale</li>
+          <li>Toutes les missions</li>
+        </ul>
+      </li>
+      <li><a href="missions.html">2. Missions, équipage et combats</a>
+        <ul>
+          <li>Description des principales missions</li>
+          <li>Portrait des membres de l’équipage</li>
+          <li>Enjeux et récits de combats</li>
+        </ul>
+      </li>
+      <li><a href="devenir.html">3. Ce qu’est devenu le Memphis Belle aujourd’hui</a>
+        <ul>
+          <li>Restauration</li>
+          <li>Exposition actuelle</li>
+          <li>Impact historique et symbolique</li>
+        </ul>
+      </li>
+      <li><a href="films.html">4. Les films en lien avec le Memphis Belle</a>
+        <ul>
+          <li>Documentaires</li>
+          <li>Films de fiction</li>
+          <li>Analyse réalité/fiction</li>
+        </ul>
+      </li>
+      <li><a href="technique.html">5. Caractéristiques techniques du Memphis Belle</a>
+        <ul>
+          <li>Moteurs</li>
+          <li>Structure</li>
+          <li>Systèmes hydrauliques</li>
+          <li>Équipements et armement</li>
+          <li>Rôle des membres d’équipage</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <div class="photo"></div>
+</main>
+</body>
+</html>
